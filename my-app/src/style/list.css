@@ -1,0 +1,16 @@
+@media (max-width: 839px) and (min-width: 480px){
+    .mdl-grid {
+        max-width: 100%;
+    }
+    .mdl-cell--2-col, .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {
+        width: 22%;
+    }
+}
+@media (max-width: 600px) and (min-width: 480px){
+    .mdl-grid {
+        max-width: 100%;
+    }
+    .mdl-cell--2-col, .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {
+        width: 46%;
+    }
+}

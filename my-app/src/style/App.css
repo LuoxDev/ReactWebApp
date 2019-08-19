@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #273d58;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c1421;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0c1421;
+}

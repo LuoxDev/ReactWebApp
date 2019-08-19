@@ -1,0 +1,38 @@
+.demo-layout-transparent {
+
+}
+.mdl-layout__drawer{
+    background-color: #111c2d;
+    border: none;
+    color: white;
+    box-shadow: 0px 0 10px 1px #000;
+}
+.link{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.mdl-mega-footer__heading{
+    padding-left: 30px;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+}
+.is-active{
+    background-color: #233953;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.active {
+    background: #fbfb09;
+    font-weight: 600;
+    text-transform: uppercase;
+}
